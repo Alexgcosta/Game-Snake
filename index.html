@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="style/style.css">
+    <script defer src="script/script.js"></script>
+    <title>Snake Game</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    gradient {
+       
+       background:linear-gradient(#2A0944,#3B185F,#A12568,#FEC260,#80ED99);
+       background-size: 300% 300%;
+       animation:colors 20s ease infinite;
+           }
+   
+   @keyframes colors {
+      0% {
+          background-position: 0% . 50%;
+      }
+   
+      50% {
+          background-position: 100%  50%;
+          
+      }
+   
+      100% {
+          background-position: 0% . 50%;
+      }
+   }
+</style>
+<body class="gradient">
+
+    <h1>> GAME SNAKE </h1>
+   <canvas id="snake" width="512" height="512" ></canvas> 
+   </body>
+</html>

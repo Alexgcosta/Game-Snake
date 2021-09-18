@@ -1,0 +1,32 @@
+body{
+    height: 95vh;
+    width:95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:blue
+  
+}
+
+.gradient {
+       
+    background:linear-gradient(#2A0944,#3B185F,#A12568,#FEC260,#80ED99);
+    background-size: 300% 300%;
+    animation:colors 10s ease infinite;
+        }
+
+@keyframes colors {
+   0% {
+       background-position: 0% . 50%;
+   }
+
+   50% {
+       background-position: 100% . 50%;
+       
+   }
+
+   100% {
+       background-position:0%  50%;
+   }
+}
